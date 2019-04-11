@@ -1,7 +1,7 @@
 # etcd-3.3.12
-etcd for docker
+etcd:v3.3.12 for docker
 
-### run command
+### Useage
 ```
 docker run \
   -d \
