@@ -2,6 +2,7 @@
 etcd for docker
 
 ### run command
+```
 docker run \
   -d \
   -p 2379:2379 \
@@ -15,3 +16,4 @@ docker run \
   -discovery=https://discovery.etcd.io/<token> \
   -advertise-client-urls http://0.0.0.0:4001 \
   -initial-advertise-peer-urls http://0.0.0.0:7001
+```
