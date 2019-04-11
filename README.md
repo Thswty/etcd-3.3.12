@@ -17,3 +17,5 @@ docker run \
   -advertise-client-urls http://0.0.0.0:4001 \
   -initial-advertise-peer-urls http://0.0.0.0:7001
 ```
+
+- The easiest way to get etcd is to use one of the pre-built release binaries which are available for OSX, Linux, Windows, and Docker on the [release page](https://github.com/etcd-io/etcd/releases).
